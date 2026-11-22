@@ -58,7 +58,7 @@ def main(argv=None):
         appeared = [name for name in current if name not in previous]
         vanished = [name for name in previous if name not in current]
         if not appeared and not vanished:
-            text = "Ничего не изменилось."
+            text = "Всё хорошо."
         else:
             lines = []
             if appeared:
